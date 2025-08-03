@@ -25,8 +25,8 @@ A comprehensive RAG (Retrieval-Augmented Generation) system that processes recip
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd newnervesparks
+git clone <https://github.com/Nikitha-200/NerveSparks-Recipe-nutrition-RAG-System-.git>
+cd nervesparks
 ```
 
 2. **Install dependencies**
@@ -40,8 +40,7 @@ streamlit run app.py
 ```
 
 4. **Access the application**
-Open your browser and go to `http://localhost:8501` (or the port shown in terminal)
-
+Open your browser and go to `http://localhost:8501` 
 
 ## 🎯 Usage
 
