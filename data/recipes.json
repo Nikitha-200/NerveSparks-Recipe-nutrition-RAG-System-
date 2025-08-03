@@ -1,0 +1,774 @@
+[
+  {
+    "id": "recipe_001",
+    "title": "Quinoa Buddha Bowl",
+    "description": "A nutritious and colorful Buddha bowl with quinoa, roasted vegetables, and tahini dressing",
+    "ingredients": [
+      {"name": "quinoa", "amount": "1", "unit": "cup", "category": "grain"},
+      {"name": "sweet potato", "amount": "1", "unit": "medium", "category": "vegetable"},
+      {"name": "chickpeas", "amount": "1", "unit": "can", "category": "legume"},
+      {"name": "kale", "amount": "2", "unit": "cups", "category": "vegetable"},
+      {"name": "avocado", "amount": "1", "unit": "medium", "category": "fruit"},
+      {"name": "tahini", "amount": "2", "unit": "tbsp", "category": "condiment"},
+      {"name": "lemon juice", "amount": "1", "unit": "tbsp", "category": "condiment"}
+    ],
+    "instructions": [
+      "Cook quinoa according to package instructions",
+      "Roast sweet potato and chickpeas at 400°F for 25 minutes",
+      "Massage kale with olive oil and lemon juice",
+      "Assemble bowl with quinoa base, vegetables, and tahini dressing"
+    ],
+    "nutritional_info": {
+      "calories": 450,
+      "protein": 15,
+      "carbohydrates": 65,
+      "fiber": 12,
+      "fat": 18,
+      "sodium": 320,
+      "sugar": 8,
+      "vitamin_c": 45,
+      "iron": 4.2,
+      "calcium": 180
+    },
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "health_benefits": ["high_fiber", "heart_healthy", "diabetes_friendly"],
+    "cuisine_type": "mediterranean",
+    "prep_time": 15,
+    "cook_time": 30,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_002",
+    "title": "Salmon with Roasted Vegetables",
+    "description": "Omega-3 rich salmon with colorful roasted vegetables",
+    "ingredients": [
+      {"name": "salmon fillet", "amount": "2", "unit": "6-oz pieces", "category": "protein"},
+      {"name": "broccoli", "amount": "2", "unit": "cups", "category": "vegetable"},
+      {"name": "carrots", "amount": "2", "unit": "medium", "category": "vegetable"},
+      {"name": "olive oil", "amount": "2", "unit": "tbsp", "category": "oil"},
+      {"name": "lemon", "amount": "1", "unit": "medium", "category": "fruit"},
+      {"name": "garlic", "amount": "3", "unit": "cloves", "category": "vegetable"},
+      {"name": "herbs", "amount": "1", "unit": "tbsp", "category": "seasoning"}
+    ],
+    "instructions": [
+      "Preheat oven to 400°F",
+      "Season salmon with herbs and lemon",
+      "Roast vegetables with olive oil and garlic",
+      "Bake salmon for 12-15 minutes until flaky"
+    ],
+    "nutritional_info": {
+      "calories": 380,
+      "protein": 42,
+      "carbohydrates": 15,
+      "fiber": 8,
+      "fat": 22,
+      "sodium": 280,
+      "sugar": 6,
+      "omega_3": 2.8,
+      "vitamin_d": 15,
+      "calcium": 120
+    },
+    "dietary_tags": ["gluten-free", "dairy-free", "pescatarian"],
+    "health_benefits": ["heart_healthy", "brain_health", "anti_inflammatory"],
+    "cuisine_type": "mediterranean",
+    "prep_time": 10,
+    "cook_time": 20,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_003",
+    "title": "Chicken and Vegetable Stir-Fry",
+    "description": "Quick and healthy stir-fry with lean chicken and fresh vegetables",
+    "ingredients": [
+      {"name": "chicken breast", "amount": "1", "unit": "lb", "category": "protein"},
+      {"name": "broccoli", "amount": "2", "unit": "cups", "category": "vegetable"},
+      {"name": "bell peppers", "amount": "2", "unit": "medium", "category": "vegetable"},
+      {"name": "soy sauce", "amount": "3", "unit": "tbsp", "category": "condiment"},
+      {"name": "ginger", "amount": "1", "unit": "tbsp", "category": "seasoning"},
+      {"name": "garlic", "amount": "3", "unit": "cloves", "category": "vegetable"},
+      {"name": "sesame oil", "amount": "1", "unit": "tbsp", "category": "oil"}
+    ],
+    "instructions": [
+      "Cut chicken into bite-sized pieces",
+      "Stir-fry chicken until golden brown",
+      "Add vegetables and stir-fry for 5 minutes",
+      "Add sauce and cook for 2 more minutes"
+    ],
+    "nutritional_info": {
+      "calories": 320,
+      "protein": 35,
+      "carbohydrates": 12,
+      "fiber": 6,
+      "fat": 16,
+      "sodium": 680,
+      "sugar": 4,
+      "vitamin_c": 85,
+      "iron": 2.8,
+      "calcium": 95
+    },
+    "dietary_tags": ["gluten-free", "dairy-free"],
+    "health_benefits": ["high_protein", "low_carb", "diabetes_friendly"],
+    "cuisine_type": "asian",
+    "prep_time": 15,
+    "cook_time": 15,
+    "servings": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "recipe_004",
+    "title": "Greek Yogurt Parfait",
+    "description": "Protein-rich breakfast parfait with berries and granola",
+    "ingredients": [
+      {"name": "greek yogurt", "amount": "1", "unit": "cup", "category": "dairy"},
+      {"name": "berries", "amount": "1", "unit": "cup", "category": "fruit"},
+      {"name": "honey", "amount": "1", "unit": "tbsp", "category": "sweetener"},
+      {"name": "granola", "amount": "1/4", "unit": "cup", "category": "grain"},
+      {"name": "chia seeds", "amount": "1", "unit": "tbsp", "category": "seed"}
+    ],
+    "instructions": [
+      "Layer Greek yogurt in a glass",
+      "Add berries and drizzle with honey",
+      "Top with granola and chia seeds",
+      "Serve immediately"
+    ],
+    "nutritional_info": {
+      "calories": 280,
+      "protein": 20,
+      "carbohydrates": 35,
+      "fiber": 8,
+      "fat": 8,
+      "sodium": 120,
+      "sugar": 22,
+      "calcium": 300,
+      "probiotics": "high"
+    },
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "health_benefits": ["high_protein", "probiotic", "antioxidant_rich"],
+    "cuisine_type": "mediterranean",
+    "prep_time": 5,
+    "cook_time": 0,
+    "servings": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_005",
+    "title": "Lentil and Spinach Curry",
+    "description": "Spicy and nutritious lentil curry with spinach and aromatic spices",
+    "ingredients": [
+      {"name": "red lentils", "amount": "1", "unit": "cup", "category": "legume"},
+      {"name": "spinach", "amount": "3", "unit": "cups", "category": "vegetable"},
+      {"name": "onion", "amount": "1", "unit": "medium", "category": "vegetable"},
+      {"name": "tomatoes", "amount": "2", "unit": "medium", "category": "vegetable"},
+      {"name": "coconut milk", "amount": "1", "unit": "can", "category": "liquid"},
+      {"name": "curry powder", "amount": "2", "unit": "tbsp", "category": "seasoning"},
+      {"name": "turmeric", "amount": "1", "unit": "tsp", "category": "seasoning"}
+    ],
+    "instructions": [
+      "Sauté onions and spices",
+      "Add lentils and coconut milk",
+      "Simmer for 20 minutes until lentils are tender",
+      "Add spinach and cook for 5 more minutes"
+    ],
+    "nutritional_info": {
+      "calories": 320,
+      "protein": 18,
+      "carbohydrates": 45,
+      "fiber": 15,
+      "fat": 12,
+      "sodium": 280,
+      "sugar": 8,
+      "iron": 8.5,
+      "folate": 180,
+      "vitamin_k": 450
+    },
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "health_benefits": ["high_fiber", "anti_inflammatory", "heart_healthy"],
+    "cuisine_type": "indian",
+    "prep_time": 10,
+    "cook_time": 30,
+    "servings": 4,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_006",
+    "title": "Grilled Chicken Caesar Salad",
+    "description": "Classic Caesar salad with grilled chicken and homemade dressing",
+    "ingredients": [
+      {"name": "chicken breast", "amount": "2", "unit": "pieces", "category": "protein"},
+      {"name": "romaine lettuce", "amount": "1", "unit": "head", "category": "vegetable"},
+      {"name": "parmesan cheese", "amount": "1/4", "unit": "cup", "category": "dairy"},
+      {"name": "croutons", "amount": "1/2", "unit": "cup", "category": "grain"},
+      {"name": "caesar dressing", "amount": "3", "unit": "tbsp", "category": "condiment"},
+      {"name": "lemon juice", "amount": "1", "unit": "tbsp", "category": "condiment"}
+    ],
+    "instructions": [
+      "Grill chicken until cooked through",
+      "Chop romaine lettuce",
+      "Toss with dressing and parmesan",
+      "Top with grilled chicken and croutons"
+    ],
+    "nutritional_info": {
+      "calories": 420,
+      "protein": 38,
+      "carbohydrates": 15,
+      "fiber": 6,
+      "fat": 24,
+      "sodium": 580,
+      "sugar": 4,
+      "vitamin_a": 280,
+      "calcium": 320,
+      "iron": 3.2
+    },
+    "dietary_tags": ["gluten-free"],
+    "health_benefits": ["high_protein", "low_carb", "vitamin_rich"],
+    "cuisine_type": "mediterranean",
+    "prep_time": 15,
+    "cook_time": 15,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_007",
+    "title": "Oatmeal with Berries and Nuts",
+    "description": "Heart-healthy oatmeal with antioxidant-rich berries and nuts",
+    "ingredients": [
+      {"name": "steel-cut oats", "amount": "1", "unit": "cup", "category": "grain"},
+      {"name": "mixed berries", "amount": "1", "unit": "cup", "category": "fruit"},
+      {"name": "almonds", "amount": "1/4", "unit": "cup", "category": "nut"},
+      {"name": "cinnamon", "amount": "1", "unit": "tsp", "category": "seasoning"},
+      {"name": "honey", "amount": "1", "unit": "tbsp", "category": "sweetener"},
+      {"name": "milk", "amount": "2", "unit": "cups", "category": "dairy"}
+    ],
+    "instructions": [
+      "Cook oats with milk and cinnamon",
+      "Top with fresh berries and chopped almonds",
+      "Drizzle with honey",
+      "Serve warm"
+    ],
+    "nutritional_info": {
+      "calories": 380,
+      "protein": 12,
+      "carbohydrates": 55,
+      "fiber": 10,
+      "fat": 16,
+      "sodium": 120,
+      "sugar": 18,
+      "beta_glucan": "high",
+      "antioxidants": "high",
+      "omega_3": 1.2
+    },
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "health_benefits": ["heart_healthy", "cholesterol_lowering", "antioxidant_rich"],
+    "cuisine_type": "american",
+    "prep_time": 5,
+    "cook_time": 20,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_008",
+    "title": "Tofu and Vegetable Stir-Fry",
+    "description": "Plant-based protein stir-fry with colorful vegetables and ginger sauce",
+    "ingredients": [
+      {"name": "firm tofu", "amount": "1", "unit": "block", "category": "protein"},
+      {"name": "broccoli", "amount": "2", "unit": "cups", "category": "vegetable"},
+      {"name": "carrots", "amount": "2", "unit": "medium", "category": "vegetable"},
+      {"name": "soy sauce", "amount": "3", "unit": "tbsp", "category": "condiment"},
+      {"name": "ginger", "amount": "1", "unit": "tbsp", "category": "seasoning"},
+      {"name": "sesame oil", "amount": "1", "unit": "tbsp", "category": "oil"},
+      {"name": "brown rice", "amount": "2", "unit": "cups", "category": "grain"}
+    ],
+    "instructions": [
+      "Press tofu to remove excess water",
+      "Stir-fry tofu until golden",
+      "Add vegetables and stir-fry",
+      "Serve over brown rice with sauce"
+    ],
+    "nutritional_info": {
+      "calories": 320,
+      "protein": 18,
+      "carbohydrates": 35,
+      "fiber": 8,
+      "fat": 14,
+      "sodium": 680,
+      "sugar": 6,
+      "calcium": 280,
+      "iron": 4.5,
+      "isoflavones": "high"
+    },
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "health_benefits": ["plant_protein", "heart_healthy", "bone_health"],
+    "cuisine_type": "asian",
+    "prep_time": 15,
+    "cook_time": 15,
+    "servings": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "recipe_009",
+    "title": "Mediterranean Chickpea Salad",
+    "description": "Fresh and zesty chickpea salad with Mediterranean flavors",
+    "ingredients": [
+      {"name": "chickpeas", "amount": "2", "unit": "cans", "category": "legume"},
+      {"name": "cucumber", "amount": "1", "unit": "medium", "category": "vegetable"},
+      {"name": "cherry tomatoes", "amount": "1", "unit": "cup", "category": "vegetable"},
+      {"name": "red onion", "amount": "1/2", "unit": "medium", "category": "vegetable"},
+      {"name": "olive oil", "amount": "3", "unit": "tbsp", "category": "oil"},
+      {"name": "lemon juice", "amount": "2", "unit": "tbsp", "category": "condiment"},
+      {"name": "fresh herbs", "amount": "1/4", "unit": "cup", "category": "seasoning"}
+    ],
+    "instructions": [
+      "Drain and rinse chickpeas",
+      "Chop vegetables and mix with chickpeas",
+      "Whisk together olive oil, lemon juice, and herbs",
+      "Toss salad with dressing and chill for 30 minutes"
+    ],
+    "nutritional_info": {
+      "calories": 280,
+      "protein": 12,
+      "carbohydrates": 35,
+      "fiber": 10,
+      "fat": 14,
+      "sodium": 240,
+      "sugar": 6,
+      "folate": 120,
+      "iron": 4.8,
+      "vitamin_c": 25
+    },
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "health_benefits": ["high_fiber", "heart_healthy", "diabetes_friendly"],
+    "cuisine_type": "mediterranean",
+    "prep_time": 15,
+    "cook_time": 0,
+    "servings": 4,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_010",
+    "title": "Keto Beef Stir-Fry",
+    "description": "Low-carb beef stir-fry with cauliflower rice and vegetables",
+    "ingredients": [
+      {"name": "beef sirloin", "amount": "1", "unit": "lb", "category": "protein"},
+      {"name": "cauliflower", "amount": "1", "unit": "head", "category": "vegetable"},
+      {"name": "broccoli", "amount": "2", "unit": "cups", "category": "vegetable"},
+      {"name": "coconut aminos", "amount": "3", "unit": "tbsp", "category": "condiment"},
+      {"name": "ginger", "amount": "1", "unit": "tbsp", "category": "seasoning"},
+      {"name": "garlic", "amount": "3", "unit": "cloves", "category": "vegetable"},
+      {"name": "sesame oil", "amount": "2", "unit": "tbsp", "category": "oil"}
+    ],
+    "instructions": [
+      "Slice beef thinly against the grain",
+      "Pulse cauliflower in food processor to create rice",
+      "Stir-fry beef until browned",
+      "Add vegetables and cauliflower rice, cook until tender"
+    ],
+    "nutritional_info": {
+      "calories": 420,
+      "protein": 45,
+      "carbohydrates": 8,
+      "fiber": 6,
+      "fat": 24,
+      "sodium": 480,
+      "sugar": 3,
+      "iron": 6.2,
+      "vitamin_b12": 3.5,
+      "zinc": 8.5
+    },
+    "dietary_tags": ["keto", "low_carb", "gluten-free", "dairy-free"],
+    "health_benefits": ["high_protein", "low_carb", "diabetes_friendly"],
+    "cuisine_type": "asian",
+    "prep_time": 20,
+    "cook_time": 15,
+    "servings": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "recipe_011",
+    "title": "Vegan Buddha Bowl",
+    "description": "Colorful vegan bowl with quinoa, roasted vegetables, and tahini dressing",
+    "ingredients": [
+      {"name": "quinoa", "amount": "1", "unit": "cup", "category": "grain"},
+      {"name": "sweet potato", "amount": "2", "unit": "medium", "category": "vegetable"},
+      {"name": "chickpeas", "amount": "1", "unit": "can", "category": "legume"},
+      {"name": "kale", "amount": "3", "unit": "cups", "category": "vegetable"},
+      {"name": "avocado", "amount": "1", "unit": "medium", "category": "fruit"},
+      {"name": "tahini", "amount": "3", "unit": "tbsp", "category": "condiment"},
+      {"name": "lemon juice", "amount": "2", "unit": "tbsp", "category": "condiment"}
+    ],
+    "instructions": [
+      "Cook quinoa according to package instructions",
+      "Roast sweet potato and chickpeas at 400°F for 25 minutes",
+      "Massage kale with olive oil and lemon juice",
+      "Assemble bowl with quinoa base, vegetables, and tahini dressing"
+    ],
+    "nutritional_info": {
+      "calories": 480,
+      "protein": 16,
+      "carbohydrates": 68,
+      "fiber": 14,
+      "fat": 20,
+      "sodium": 340,
+      "sugar": 10,
+      "vitamin_c": 55,
+      "iron": 5.2,
+      "calcium": 220
+    },
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "health_benefits": ["high_fiber", "heart_healthy", "diabetes_friendly"],
+    "cuisine_type": "mediterranean",
+    "prep_time": 15,
+    "cook_time": 30,
+    "servings": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_012",
+    "title": "Gluten-Free Pasta Primavera",
+    "description": "Fresh spring vegetables with gluten-free pasta and light cream sauce",
+    "ingredients": [
+      {"name": "gluten-free pasta", "amount": "1", "unit": "lb", "category": "grain"},
+      {"name": "asparagus", "amount": "1", "unit": "bunch", "category": "vegetable"},
+      {"name": "peas", "amount": "1", "unit": "cup", "category": "vegetable"},
+      {"name": "cherry tomatoes", "amount": "1", "unit": "cup", "category": "vegetable"},
+      {"name": "heavy cream", "amount": "1/2", "unit": "cup", "category": "dairy"},
+      {"name": "parmesan cheese", "amount": "1/2", "unit": "cup", "category": "dairy"},
+      {"name": "garlic", "amount": "4", "unit": "cloves", "category": "vegetable"}
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions",
+      "Sauté vegetables in olive oil",
+      "Add cream and parmesan to create sauce",
+      "Toss pasta with vegetables and sauce"
+    ],
+    "nutritional_info": {
+      "calories": 520,
+      "protein": 18,
+      "carbohydrates": 65,
+      "fiber": 8,
+      "fat": 24,
+      "sodium": 420,
+      "sugar": 6,
+      "vitamin_a": 280,
+      "calcium": 320,
+      "iron": 3.8
+    },
+    "dietary_tags": ["vegetarian", "gluten-free"],
+    "health_benefits": ["vitamin_rich", "antioxidant_rich", "heart_healthy"],
+    "cuisine_type": "italian",
+    "prep_time": 15,
+    "cook_time": 20,
+    "servings": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "recipe_013",
+    "title": "Dairy-Free Chocolate Smoothie",
+    "description": "Rich chocolate smoothie made with almond milk and banana",
+    "ingredients": [
+      {"name": "almond milk", "amount": "2", "unit": "cups", "category": "liquid"},
+      {"name": "banana", "amount": "1", "unit": "medium", "category": "fruit"},
+      {"name": "cocoa powder", "amount": "2", "unit": "tbsp", "category": "seasoning"},
+      {"name": "almond butter", "amount": "2", "unit": "tbsp", "category": "nut"},
+      {"name": "honey", "amount": "1", "unit": "tbsp", "category": "sweetener"},
+      {"name": "ice cubes", "amount": "1", "unit": "cup", "category": "other"}
+    ],
+    "instructions": [
+      "Blend almond milk, banana, and cocoa powder",
+      "Add almond butter and honey",
+      "Blend with ice until smooth",
+      "Serve immediately"
+    ],
+    "nutritional_info": {
+      "calories": 320,
+      "protein": 8,
+      "carbohydrates": 35,
+      "fiber": 6,
+      "fat": 18,
+      "sodium": 120,
+      "sugar": 24,
+      "calcium": 280,
+      "magnesium": 120,
+      "antioxidants": "high"
+    },
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "health_benefits": ["antioxidant_rich", "heart_healthy", "brain_health"],
+    "cuisine_type": "american",
+    "prep_time": 5,
+    "cook_time": 0,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_014",
+    "title": "Low-Sodium Turkey Meatballs",
+    "description": "Flavorful turkey meatballs with herbs and no added salt",
+    "ingredients": [
+      {"name": "ground turkey", "amount": "1", "unit": "lb", "category": "protein"},
+      {"name": "breadcrumbs", "amount": "1/2", "unit": "cup", "category": "grain"},
+      {"name": "egg", "amount": "1", "unit": "large", "category": "protein"},
+      {"name": "fresh herbs", "amount": "1/4", "unit": "cup", "category": "seasoning"},
+      {"name": "garlic", "amount": "3", "unit": "cloves", "category": "vegetable"},
+      {"name": "olive oil", "amount": "2", "unit": "tbsp", "category": "oil"},
+      {"name": "tomato sauce", "amount": "2", "unit": "cups", "category": "condiment"}
+    ],
+    "instructions": [
+      "Mix turkey, breadcrumbs, egg, herbs, and garlic",
+      "Form into meatballs",
+      "Brown in olive oil",
+      "Simmer in tomato sauce until cooked through"
+    ],
+    "nutritional_info": {
+      "calories": 380,
+      "protein": 42,
+      "carbohydrates": 15,
+      "fiber": 4,
+      "fat": 18,
+      "sodium": 180,
+      "sugar": 6,
+      "iron": 4.2,
+      "vitamin_b12": 2.8,
+      "zinc": 6.5
+    },
+    "dietary_tags": ["gluten-free", "dairy-free", "low_sodium"],
+    "health_benefits": ["high_protein", "heart_healthy", "blood_pressure_control"],
+    "cuisine_type": "italian",
+    "prep_time": 20,
+    "cook_time": 25,
+    "servings": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "recipe_015",
+    "title": "Diabetes-Friendly Berry Oatmeal",
+    "description": "Low-glycemic oatmeal with berries and nuts for blood sugar control",
+    "ingredients": [
+      {"name": "steel-cut oats", "amount": "1", "unit": "cup", "category": "grain"},
+      {"name": "mixed berries", "amount": "1", "unit": "cup", "category": "fruit"},
+      {"name": "walnuts", "amount": "1/4", "unit": "cup", "category": "nut"},
+      {"name": "cinnamon", "amount": "1", "unit": "tsp", "category": "seasoning"},
+      {"name": "stevia", "amount": "1", "unit": "tsp", "category": "sweetener"},
+      {"name": "almond milk", "amount": "2", "unit": "cups", "category": "liquid"}
+    ],
+    "instructions": [
+      "Cook oats with almond milk and cinnamon",
+      "Top with fresh berries and chopped walnuts",
+      "Sweeten with stevia",
+      "Serve warm"
+    ],
+    "nutritional_info": {
+      "calories": 320,
+      "protein": 10,
+      "carbohydrates": 45,
+      "fiber": 12,
+      "fat": 14,
+      "sodium": 80,
+      "sugar": 12,
+      "beta_glucan": "high",
+      "antioxidants": "high",
+      "glycemic_index": "low"
+    },
+    "dietary_tags": ["vegetarian", "gluten-free", "dairy-free", "diabetes_friendly"],
+    "health_benefits": ["blood_sugar_control", "heart_healthy", "antioxidant_rich"],
+    "cuisine_type": "american",
+    "prep_time": 5,
+    "cook_time": 20,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_016",
+    "title": "Heart-Healthy Mediterranean Fish",
+    "description": "Omega-3 rich fish with Mediterranean herbs and vegetables",
+    "ingredients": [
+      {"name": "sea bass", "amount": "2", "unit": "fillets", "category": "protein"},
+      {"name": "cherry tomatoes", "amount": "1", "unit": "cup", "category": "vegetable"},
+      {"name": "olives", "amount": "1/2", "unit": "cup", "category": "vegetable"},
+      {"name": "olive oil", "amount": "3", "unit": "tbsp", "category": "oil"},
+      {"name": "fresh herbs", "amount": "1/4", "unit": "cup", "category": "seasoning"},
+      {"name": "lemon", "amount": "1", "unit": "medium", "category": "fruit"},
+      {"name": "garlic", "amount": "4", "unit": "cloves", "category": "vegetable"}
+    ],
+    "instructions": [
+      "Preheat oven to 400°F",
+      "Season fish with herbs and lemon",
+      "Arrange vegetables around fish",
+      "Bake for 15-20 minutes until fish flakes easily"
+    ],
+    "nutritional_info": {
+      "calories": 360,
+      "protein": 38,
+      "carbohydrates": 8,
+      "fiber": 4,
+      "fat": 22,
+      "sodium": 320,
+      "sugar": 4,
+      "omega_3": 3.2,
+      "vitamin_d": 18,
+      "selenium": 45
+    },
+    "dietary_tags": ["gluten-free", "dairy-free", "pescatarian", "heart_healthy"],
+    "health_benefits": ["heart_healthy", "brain_health", "anti_inflammatory"],
+    "cuisine_type": "mediterranean",
+    "prep_time": 15,
+    "cook_time": 20,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_017",
+    "title": "Anti-Inflammatory Turmeric Rice",
+    "description": "Golden turmeric rice with anti-inflammatory properties",
+    "ingredients": [
+      {"name": "brown rice", "amount": "2", "unit": "cups", "category": "grain"},
+      {"name": "turmeric", "amount": "2", "unit": "tsp", "category": "seasoning"},
+      {"name": "ginger", "amount": "1", "unit": "tbsp", "category": "seasoning"},
+      {"name": "coconut oil", "amount": "2", "unit": "tbsp", "category": "oil"},
+      {"name": "black pepper", "amount": "1", "unit": "tsp", "category": "seasoning"},
+      {"name": "vegetable broth", "amount": "4", "unit": "cups", "category": "liquid"},
+      {"name": "fresh herbs", "amount": "1/4", "unit": "cup", "category": "seasoning"}
+    ],
+    "instructions": [
+      "Sauté turmeric, ginger, and black pepper in coconut oil",
+      "Add rice and stir to coat",
+      "Add broth and bring to boil",
+      "Simmer covered for 45 minutes until tender"
+    ],
+    "nutritional_info": {
+      "calories": 280,
+      "protein": 6,
+      "carbohydrates": 52,
+      "fiber": 4,
+      "fat": 8,
+      "sodium": 240,
+      "sugar": 2,
+      "curcumin": "high",
+      "antioxidants": "high",
+      "anti_inflammatory": "high"
+    },
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "health_benefits": ["anti_inflammatory", "antioxidant_rich", "immune_support"],
+    "cuisine_type": "indian",
+    "prep_time": 10,
+    "cook_time": 45,
+    "servings": 4,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_018",
+    "title": "Celiac-Safe Quinoa Bowl",
+    "description": "Completely gluten-free quinoa bowl with safe ingredients",
+    "ingredients": [
+      {"name": "quinoa", "amount": "1", "unit": "cup", "category": "grain"},
+      {"name": "roasted vegetables", "amount": "3", "unit": "cups", "category": "vegetable"},
+      {"name": "tahini", "amount": "3", "unit": "tbsp", "category": "condiment"},
+      {"name": "lemon juice", "amount": "2", "unit": "tbsp", "category": "condiment"},
+      {"name": "olive oil", "amount": "2", "unit": "tbsp", "category": "oil"},
+      {"name": "fresh herbs", "amount": "1/4", "unit": "cup", "category": "seasoning"},
+      {"name": "seeds", "amount": "2", "unit": "tbsp", "category": "seed"}
+    ],
+    "instructions": [
+      "Cook quinoa in gluten-free certified broth",
+      "Roast vegetables with olive oil",
+      "Make tahini dressing with lemon and herbs",
+      "Assemble bowl and top with seeds"
+    ],
+    "nutritional_info": {
+      "calories": 420,
+      "protein": 14,
+      "carbohydrates": 58,
+      "fiber": 10,
+      "fat": 18,
+      "sodium": 280,
+      "sugar": 6,
+      "iron": 4.8,
+      "calcium": 160,
+      "magnesium": 120
+    },
+    "dietary_tags": ["vegetarian", "vegan", "gluten-free", "dairy-free", "celiac_safe"],
+    "health_benefits": ["high_fiber", "heart_healthy", "digestive_health"],
+    "cuisine_type": "mediterranean",
+    "prep_time": 15,
+    "cook_time": 30,
+    "servings": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_019",
+    "title": "Lactose-Free Protein Smoothie",
+    "description": "High-protein smoothie using lactose-free dairy alternatives",
+    "ingredients": [
+      {"name": "lactose-free milk", "amount": "2", "unit": "cups", "category": "dairy"},
+      {"name": "lactose-free yogurt", "amount": "1", "unit": "cup", "category": "dairy"},
+      {"name": "banana", "amount": "1", "unit": "medium", "category": "fruit"},
+      {"name": "protein powder", "amount": "2", "unit": "scoops", "category": "supplement"},
+      {"name": "honey", "amount": "1", "unit": "tbsp", "category": "sweetener"},
+      {"name": "ice cubes", "amount": "1", "unit": "cup", "category": "other"}
+    ],
+    "instructions": [
+      "Blend lactose-free milk and yogurt",
+      "Add banana and protein powder",
+      "Sweeten with honey",
+      "Blend with ice until smooth"
+    ],
+    "nutritional_info": {
+      "calories": 380,
+      "protein": 32,
+      "carbohydrates": 28,
+      "fiber": 4,
+      "fat": 12,
+      "sodium": 180,
+      "sugar": 20,
+      "calcium": 420,
+      "vitamin_d": 8,
+      "probiotics": "high"
+    },
+    "dietary_tags": ["vegetarian", "gluten-free", "lactose_intolerance_safe"],
+    "health_benefits": ["high_protein", "probiotic", "bone_health"],
+    "cuisine_type": "american",
+    "prep_time": 5,
+    "cook_time": 0,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "recipe_020",
+    "title": "Weight Management Chicken Salad",
+    "description": "Low-calorie, high-protein chicken salad for weight management",
+    "ingredients": [
+      {"name": "chicken breast", "amount": "2", "unit": "pieces", "category": "protein"},
+      {"name": "mixed greens", "amount": "4", "unit": "cups", "category": "vegetable"},
+      {"name": "cherry tomatoes", "amount": "1", "unit": "cup", "category": "vegetable"},
+      {"name": "cucumber", "amount": "1", "unit": "medium", "category": "vegetable"},
+      {"name": "balsamic vinegar", "amount": "2", "unit": "tbsp", "category": "condiment"},
+      {"name": "olive oil", "amount": "1", "unit": "tbsp", "category": "oil"},
+      {"name": "herbs", "amount": "1", "unit": "tbsp", "category": "seasoning"}
+    ],
+    "instructions": [
+      "Grill chicken until cooked through",
+      "Chop vegetables and mix with greens",
+      "Slice chicken and arrange on salad",
+      "Drizzle with balsamic and olive oil dressing"
+    ],
+    "nutritional_info": {
+      "calories": 280,
+      "protein": 42,
+      "carbohydrates": 8,
+      "fiber": 6,
+      "fat": 12,
+      "sodium": 240,
+      "sugar": 4,
+      "vitamin_a": 320,
+      "vitamin_c": 45,
+      "iron": 3.8
+    },
+    "dietary_tags": ["gluten-free", "dairy-free", "weight_management"],
+    "health_benefits": ["high_protein", "low_calorie", "vitamin_rich"],
+    "cuisine_type": "mediterranean",
+    "prep_time": 15,
+    "cook_time": 15,
+    "servings": 2,
+    "difficulty": "easy"
+  }
+] 

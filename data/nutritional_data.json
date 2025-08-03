@@ -1,0 +1,363 @@
+{
+  "ingredients": {
+    "quinoa": {
+      "calories_per_100g": 120,
+      "protein": 4.4,
+      "carbohydrates": 21.3,
+      "fiber": 2.8,
+      "fat": 1.9,
+      "vitamins": {
+        "vitamin_b1": 0.1,
+        "vitamin_b2": 0.1,
+        "vitamin_b6": 0.1,
+        "folate": 42
+      },
+      "minerals": {
+        "iron": 1.5,
+        "magnesium": 64,
+        "phosphorus": 152,
+        "zinc": 1.1
+      },
+      "health_benefits": ["complete_protein", "gluten_free", "high_fiber", "antioxidant_rich"],
+      "glycemic_index": 53,
+      "allergen_free": true
+    },
+    "salmon": {
+      "calories_per_100g": 208,
+      "protein": 25.4,
+      "carbohydrates": 0,
+      "fiber": 0,
+      "fat": 12.4,
+      "vitamins": {
+        "vitamin_d": 11.1,
+        "vitamin_b12": 2.6,
+        "vitamin_b6": 0.9,
+        "vitamin_a": 149
+      },
+      "minerals": {
+        "selenium": 36.5,
+        "phosphorus": 240,
+        "potassium": 363
+      },
+      "omega_3": 2.3,
+      "health_benefits": ["heart_healthy", "brain_health", "anti_inflammatory", "high_protein"],
+      "glycemic_index": 0,
+      "allergen_free": false
+    },
+    "chicken_breast": {
+      "calories_per_100g": 165,
+      "protein": 31,
+      "carbohydrates": 0,
+      "fiber": 0,
+      "fat": 3.6,
+      "vitamins": {
+        "vitamin_b6": 0.6,
+        "vitamin_b12": 0.3,
+        "niacin": 13.7
+      },
+      "minerals": {
+        "selenium": 22.4,
+        "phosphorus": 228,
+        "potassium": 256
+      },
+      "health_benefits": ["lean_protein", "low_fat", "muscle_building"],
+      "glycemic_index": 0,
+      "allergen_free": false
+    },
+    "broccoli": {
+      "calories_per_100g": 34,
+      "protein": 2.8,
+      "carbohydrates": 7,
+      "fiber": 2.6,
+      "fat": 0.4,
+      "vitamins": {
+        "vitamin_c": 89.2,
+        "vitamin_k": 101.6,
+        "vitamin_a": 623,
+        "folate": 63
+      },
+      "minerals": {
+        "calcium": 47,
+        "iron": 0.7,
+        "potassium": 316
+      },
+      "health_benefits": ["antioxidant_rich", "cancer_fighting", "bone_health", "immune_support"],
+      "glycemic_index": 15,
+      "allergen_free": true
+    },
+    "sweet_potato": {
+      "calories_per_100g": 86,
+      "protein": 1.6,
+      "carbohydrates": 20,
+      "fiber": 3,
+      "fat": 0.1,
+      "vitamins": {
+        "vitamin_a": 14187,
+        "vitamin_c": 2.4,
+        "vitamin_b6": 0.2
+      },
+      "minerals": {
+        "potassium": 337,
+        "manganese": 0.3,
+        "copper": 0.1
+      },
+      "health_benefits": ["eye_health", "immune_support", "digestive_health"],
+      "glycemic_index": 44,
+      "allergen_free": true
+    },
+    "chickpeas": {
+      "calories_per_100g": 164,
+      "protein": 8.9,
+      "carbohydrates": 27,
+      "fiber": 7.6,
+      "fat": 2.6,
+      "vitamins": {
+        "folate": 172,
+        "vitamin_b6": 0.2,
+        "vitamin_c": 1.3
+      },
+      "minerals": {
+        "iron": 2.9,
+        "magnesium": 48,
+        "zinc": 1.5
+      },
+      "health_benefits": ["high_fiber", "plant_protein", "heart_healthy", "blood_sugar_control"],
+      "glycemic_index": 28,
+      "allergen_free": true
+    },
+    "spinach": {
+      "calories_per_100g": 23,
+      "protein": 2.9,
+      "carbohydrates": 3.6,
+      "fiber": 2.2,
+      "fat": 0.4,
+      "vitamins": {
+        "vitamin_k": 483,
+        "vitamin_a": 469,
+        "vitamin_c": 28.1,
+        "folate": 194
+      },
+      "minerals": {
+        "iron": 2.7,
+        "calcium": 99,
+        "magnesium": 79
+      },
+      "health_benefits": ["bone_health", "eye_health", "antioxidant_rich", "blood_health"],
+      "glycemic_index": 15,
+      "allergen_free": true
+    },
+    "avocado": {
+      "calories_per_100g": 160,
+      "protein": 2,
+      "carbohydrates": 8.5,
+      "fiber": 6.7,
+      "fat": 14.7,
+      "vitamins": {
+        "vitamin_k": 21,
+        "vitamin_e": 2.1,
+        "vitamin_c": 10,
+        "folate": 81
+      },
+      "minerals": {
+        "potassium": 485,
+        "magnesium": 29,
+        "copper": 0.2
+      },
+      "health_benefits": ["heart_healthy", "brain_health", "skin_health", "weight_management"],
+      "glycemic_index": 15,
+      "allergen_free": true
+    },
+    "greek_yogurt": {
+      "calories_per_100g": 59,
+      "protein": 10,
+      "carbohydrates": 3.6,
+      "fiber": 0,
+      "fat": 0.4,
+      "vitamins": {
+        "vitamin_b12": 0.5,
+        "vitamin_b2": 0.2,
+        "vitamin_d": 0.1
+      },
+      "minerals": {
+        "calcium": 110,
+        "phosphorus": 135,
+        "zinc": 0.5
+      },
+      "probiotics": "high",
+      "health_benefits": ["high_protein", "probiotic", "bone_health", "digestive_health"],
+      "glycemic_index": 35,
+      "allergen_free": false
+    },
+    "almonds": {
+      "calories_per_100g": 579,
+      "protein": 21.2,
+      "carbohydrates": 21.7,
+      "fiber": 12.5,
+      "fat": 49.9,
+      "vitamins": {
+        "vitamin_e": 25.6,
+        "vitamin_b2": 1.1,
+        "niacin": 3.6
+      },
+      "minerals": {
+        "magnesium": 270,
+        "calcium": 269,
+        "iron": 3.7
+      },
+      "health_benefits": ["heart_healthy", "brain_health", "bone_health", "weight_management"],
+      "glycemic_index": 15,
+      "allergen_free": false
+    },
+    "tofu": {
+      "calories_per_100g": 76,
+      "protein": 8.1,
+      "carbohydrates": 1.9,
+      "fiber": 0.3,
+      "fat": 4.8,
+      "vitamins": {
+        "vitamin_b1": 0.1,
+        "vitamin_b6": 0.1,
+        "folate": 15
+      },
+      "minerals": {
+        "calcium": 350,
+        "iron": 5.4,
+        "magnesium": 30
+      },
+      "isoflavones": "high",
+      "health_benefits": ["plant_protein", "bone_health", "heart_healthy", "menopause_support"],
+      "glycemic_index": 15,
+      "allergen_free": false
+    },
+    "lentils": {
+      "calories_per_100g": 116,
+      "protein": 9,
+      "carbohydrates": 20,
+      "fiber": 7.9,
+      "fat": 0.4,
+      "vitamins": {
+        "folate": 181,
+        "vitamin_b1": 0.2,
+        "vitamin_b6": 0.2
+      },
+      "minerals": {
+        "iron": 3.3,
+        "magnesium": 36,
+        "zinc": 1.3
+      },
+      "health_benefits": ["high_fiber", "plant_protein", "heart_healthy", "blood_sugar_control"],
+      "glycemic_index": 25,
+      "allergen_free": true
+    }
+  },
+  "vitamins": {
+    "vitamin_a": {
+      "daily_value": 900,
+      "unit": "mcg",
+      "benefits": ["eye_health", "immune_support", "skin_health"],
+      "sources": ["carrots", "sweet_potato", "spinach", "liver"]
+    },
+    "vitamin_c": {
+      "daily_value": 90,
+      "unit": "mg",
+      "benefits": ["immune_support", "antioxidant", "collagen_synthesis"],
+      "sources": ["citrus_fruits", "broccoli", "bell_peppers", "strawberries"]
+    },
+    "vitamin_d": {
+      "daily_value": 20,
+      "unit": "mcg",
+      "benefits": ["bone_health", "immune_support", "mood_regulation"],
+      "sources": ["salmon", "egg_yolks", "mushrooms", "fortified_milk"]
+    },
+    "vitamin_e": {
+      "daily_value": 15,
+      "unit": "mg",
+      "benefits": ["antioxidant", "skin_health", "heart_health"],
+      "sources": ["almonds", "sunflower_seeds", "avocado", "olive_oil"]
+    },
+    "vitamin_k": {
+      "daily_value": 120,
+      "unit": "mcg",
+      "benefits": ["blood_clotting", "bone_health", "heart_health"],
+      "sources": ["spinach", "kale", "broccoli", "brussels_sprouts"]
+    },
+    "vitamin_b12": {
+      "daily_value": 2.4,
+      "unit": "mcg",
+      "benefits": ["nerve_function", "red_blood_cell_formation", "dna_synthesis"],
+      "sources": ["salmon", "beef", "eggs", "dairy"]
+    },
+    "folate": {
+      "daily_value": 400,
+      "unit": "mcg",
+      "benefits": ["dna_synthesis", "red_blood_cell_formation", "pregnancy_support"],
+      "sources": ["lentils", "spinach", "chickpeas", "asparagus"]
+    }
+  },
+  "minerals": {
+    "calcium": {
+      "daily_value": 1300,
+      "unit": "mg",
+      "benefits": ["bone_health", "muscle_function", "nerve_transmission"],
+      "sources": ["dairy", "tofu", "almonds", "spinach"]
+    },
+    "iron": {
+      "daily_value": 18,
+      "unit": "mg",
+      "benefits": ["oxygen_transport", "energy_production", "immune_function"],
+      "sources": ["red_meat", "lentils", "spinach", "quinoa"]
+    },
+    "magnesium": {
+      "daily_value": 420,
+      "unit": "mg",
+      "benefits": ["muscle_function", "nerve_function", "bone_health"],
+      "sources": ["almonds", "spinach", "quinoa", "dark_chocolate"]
+    },
+    "zinc": {
+      "daily_value": 11,
+      "unit": "mg",
+      "benefits": ["immune_function", "wound_healing", "protein_synthesis"],
+      "sources": ["oysters", "beef", "chickpeas", "quinoa"]
+    },
+    "potassium": {
+      "daily_value": 4700,
+      "unit": "mg",
+      "benefits": ["blood_pressure_control", "muscle_function", "heart_health"],
+      "sources": ["bananas", "sweet_potato", "spinach", "avocado"]
+    },
+    "selenium": {
+      "daily_value": 55,
+      "unit": "mcg",
+      "benefits": ["antioxidant", "thyroid_function", "immune_support"],
+      "sources": ["salmon", "chicken", "eggs", "brazil_nuts"]
+    }
+  },
+  "nutrients": {
+    "protein": {
+      "daily_value": 50,
+      "unit": "g",
+      "benefits": ["muscle_building", "tissue_repair", "enzyme_production"],
+      "sources": ["meat", "fish", "eggs", "legumes", "dairy"]
+    },
+    "fiber": {
+      "daily_value": 28,
+      "unit": "g",
+      "benefits": ["digestive_health", "blood_sugar_control", "heart_health"],
+      "sources": ["fruits", "vegetables", "whole_grains", "legumes"]
+    },
+    "omega_3": {
+      "daily_value": 1.6,
+      "unit": "g",
+      "benefits": ["heart_health", "brain_health", "anti_inflammatory"],
+      "sources": ["salmon", "walnuts", "flaxseeds", "chia_seeds"]
+    },
+    "antioxidants": {
+      "benefits": ["cell_protection", "anti_aging", "disease_prevention"],
+      "sources": ["berries", "dark_chocolate", "green_tea", "colorful_vegetables"]
+    },
+    "probiotics": {
+      "benefits": ["digestive_health", "immune_support", "nutrient_absorption"],
+      "sources": ["yogurt", "kefir", "sauerkraut", "kimchi"]
+    }
+  }
+} 

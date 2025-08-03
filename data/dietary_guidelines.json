@@ -1,0 +1,419 @@
+{
+  "dietary_restrictions": {
+    "vegetarian": {
+      "description": "Excludes meat, fish, and poultry",
+      "allowed_ingredients": ["vegetables", "fruits", "grains", "legumes", "dairy", "eggs", "nuts", "seeds"],
+      "excluded_ingredients": ["meat", "fish", "poultry", "gelatin", "rennet"],
+      "health_benefits": ["lower_cholesterol", "reduced_cancer_risk", "environmental_friendly"],
+      "nutritional_considerations": ["protein", "vitamin_b12", "iron", "zinc"]
+    },
+    "vegan": {
+      "description": "Excludes all animal products",
+      "allowed_ingredients": ["vegetables", "fruits", "grains", "legumes", "nuts", "seeds", "plant_milk"],
+      "excluded_ingredients": ["meat", "fish", "poultry", "dairy", "eggs", "honey", "gelatin"],
+      "health_benefits": ["heart_healthy", "anti_inflammatory", "environmental_friendly"],
+      "nutritional_considerations": ["protein", "vitamin_b12", "vitamin_d", "calcium", "iron", "omega_3"]
+    },
+    "gluten_free": {
+      "description": "Excludes gluten-containing grains",
+      "allowed_ingredients": ["rice", "quinoa", "corn", "buckwheat", "millet", "amaranth", "teff"],
+      "excluded_ingredients": ["wheat", "barley", "rye", "triticale", "malt", "brewer_yeast"],
+      "health_benefits": ["celiac_safe", "reduced_inflammation"],
+      "nutritional_considerations": ["fiber", "b_vitamins", "iron"]
+    },
+    "dairy_free": {
+      "description": "Excludes dairy products",
+      "allowed_ingredients": ["plant_milk", "coconut_milk", "almond_milk", "soy_milk", "oat_milk"],
+      "excluded_ingredients": ["milk", "cheese", "yogurt", "butter", "cream", "whey", "casein"],
+      "health_benefits": ["lactose_intolerance_safe", "reduced_inflammation"],
+      "nutritional_considerations": ["calcium", "vitamin_d", "protein"]
+    },
+    "keto": {
+      "description": "High-fat, low-carbohydrate diet",
+      "allowed_ingredients": ["meat", "fish", "eggs", "dairy", "nuts", "seeds", "low_carb_vegetables"],
+      "excluded_ingredients": ["grains", "sugar", "high_carb_fruits", "legumes"],
+      "health_benefits": ["weight_loss", "blood_sugar_control", "mental_clarity"],
+      "nutritional_considerations": ["electrolytes", "fiber", "vitamins"]
+    },
+    "low_sodium": {
+      "description": "Reduced sodium intake",
+      "allowed_ingredients": ["fresh_vegetables", "fruits", "lean_proteins", "herbs", "spices"],
+      "excluded_ingredients": ["processed_foods", "canned_soups", "deli_meats", "cheese", "sauces"],
+      "health_benefits": ["blood_pressure_control", "heart_healthy", "kidney_health"],
+      "nutritional_considerations": ["potassium", "magnesium", "calcium"]
+    },
+    "diabetes_friendly": {
+      "description": "Low glycemic index foods",
+      "allowed_ingredients": ["non_starchy_vegetables", "lean_proteins", "healthy_fats", "low_gi_fruits"],
+      "excluded_ingredients": ["refined_sugars", "white_flour", "high_gi_fruits", "sweetened_beverages"],
+      "health_benefits": ["blood_sugar_control", "insulin_sensitivity", "weight_management"],
+      "nutritional_considerations": ["fiber", "protein", "healthy_fats", "complex_carbs"]
+    },
+    "pescatarian": {
+      "description": "Vegetarian diet that includes fish and seafood",
+      "allowed_ingredients": ["vegetables", "fruits", "grains", "legumes", "dairy", "eggs", "fish", "seafood"],
+      "excluded_ingredients": ["meat", "poultry"],
+      "health_benefits": ["heart_healthy", "omega_3_rich", "reduced_cancer_risk"],
+      "nutritional_considerations": ["protein", "omega_3", "vitamin_b12", "iron"]
+    },
+    "paleo": {
+      "description": "Based on foods presumed to be available to Paleolithic humans",
+      "allowed_ingredients": ["meat", "fish", "eggs", "vegetables", "fruits", "nuts", "seeds"],
+      "excluded_ingredients": ["grains", "legumes", "dairy", "processed_foods", "refined_sugars"],
+      "health_benefits": ["anti_inflammatory", "blood_sugar_control", "weight_loss"],
+      "nutritional_considerations": ["fiber", "calcium", "vitamin_d"]
+    },
+    "mediterranean": {
+      "description": "Based on traditional Mediterranean cuisine",
+      "allowed_ingredients": ["olive_oil", "vegetables", "fruits", "whole_grains", "fish", "legumes", "nuts"],
+      "excluded_ingredients": ["processed_foods", "refined_sugars", "excess_red_meat"],
+      "health_benefits": ["heart_healthy", "longevity", "cognitive_health"],
+      "nutritional_considerations": ["omega_3", "antioxidants", "fiber", "healthy_fats"]
+    },
+    "low_fodmap": {
+      "description": "Reduces fermentable carbohydrates",
+      "allowed_ingredients": ["low_fodmap_vegetables", "low_fodmap_fruits", "lean_proteins", "rice", "quinoa"],
+      "excluded_ingredients": ["wheat", "onions", "garlic", "apples", "dairy", "legumes"],
+      "health_benefits": ["digestive_health", "ibs_relief", "reduced_bloating"],
+      "nutritional_considerations": ["fiber", "calcium", "vitamin_d"]
+    },
+    "anti_inflammatory": {
+      "description": "Focuses on foods that reduce inflammation",
+      "allowed_ingredients": ["fatty_fish", "berries", "leafy_greens", "nuts", "olive_oil", "turmeric"],
+      "excluded_ingredients": ["processed_foods", "refined_sugars", "trans_fats", "excess_alcohol"],
+      "health_benefits": ["reduced_inflammation", "joint_health", "immune_support"],
+      "nutritional_considerations": ["omega_3", "antioxidants", "vitamin_d"]
+    },
+    "weight_management": {
+      "description": "Focused on healthy weight control",
+      "allowed_ingredients": ["lean_proteins", "vegetables", "fruits", "whole_grains", "healthy_fats"],
+      "excluded_ingredients": ["processed_foods", "refined_sugars", "excess_fats"],
+      "health_benefits": ["weight_control", "metabolic_health", "energy_balance"],
+      "nutritional_considerations": ["protein", "fiber", "healthy_fats", "portion_control"]
+    },
+    "celiac_safe": {
+      "description": "Strictly gluten-free for celiac disease",
+      "allowed_ingredients": ["certified_gluten_free_grains", "fresh_vegetables", "fruits", "lean_proteins"],
+      "excluded_ingredients": ["gluten", "cross_contaminated_foods"],
+      "health_benefits": ["celiac_safe", "digestive_health", "nutrient_absorption"],
+      "nutritional_considerations": ["fiber", "b_vitamins", "iron", "calcium"]
+    },
+    "lactose_intolerance_safe": {
+      "description": "Avoids lactose-containing foods",
+      "allowed_ingredients": ["lactose_free_dairy", "plant_milk", "lean_proteins", "vegetables", "fruits"],
+      "excluded_ingredients": ["lactose", "milk", "soft_cheeses", "ice_cream"],
+      "health_benefits": ["digestive_comfort", "nutrient_absorption", "reduced_discomfort"],
+      "nutritional_considerations": ["calcium", "vitamin_d", "protein"]
+    }
+  },
+  "health_conditions": {
+    "diabetes": {
+      "description": "Blood sugar management",
+      "recommended_nutrients": ["fiber", "protein", "healthy_fats"],
+      "avoid_nutrients": ["refined_sugars", "simple_carbs"],
+      "meal_timing": "regular_intervals",
+      "portions": "controlled",
+      "glycemic_index": "low_to_medium"
+    },
+    "heart_disease": {
+      "description": "Cardiovascular health",
+      "recommended_nutrients": ["omega_3", "fiber", "antioxidants", "potassium"],
+      "avoid_nutrients": ["saturated_fat", "trans_fat", "sodium", "cholesterol"],
+      "meal_timing": "regular",
+      "portions": "moderate",
+      "cooking_methods": ["grilling", "baking", "steaming"]
+    },
+    "hypertension": {
+      "description": "Blood pressure control",
+      "recommended_nutrients": ["potassium", "magnesium", "calcium", "fiber"],
+      "avoid_nutrients": ["sodium", "alcohol", "caffeine"],
+      "meal_timing": "regular",
+      "portions": "controlled",
+      "dash_diet": "recommended"
+    },
+    "celiac_disease": {
+      "description": "Gluten intolerance",
+      "recommended_nutrients": ["fiber", "b_vitamins", "iron", "calcium"],
+      "avoid_nutrients": ["gluten"],
+      "meal_timing": "regular",
+      "portions": "normal",
+      "cross_contamination": "avoid"
+    },
+    "lactose_intolerance": {
+      "description": "Dairy sensitivity",
+      "recommended_nutrients": ["calcium", "vitamin_d", "protein"],
+      "avoid_nutrients": ["lactose"],
+      "meal_timing": "regular",
+      "portions": "normal",
+      "alternatives": ["plant_milk", "lactose_free_dairy"]
+    },
+    "obesity": {
+      "description": "Weight management",
+      "recommended_nutrients": ["protein", "fiber", "healthy_fats"],
+      "avoid_nutrients": ["refined_sugars", "excess_calories"],
+      "meal_timing": "regular",
+      "portions": "controlled",
+      "calorie_density": "low"
+    },
+    "ibs": {
+      "description": "Irritable bowel syndrome",
+      "recommended_nutrients": ["fiber", "probiotics", "omega_3"],
+      "avoid_nutrients": ["fodmaps", "caffeine", "alcohol"],
+      "meal_timing": "regular",
+      "portions": "small_frequent",
+      "stress_management": "important"
+    },
+    "arthritis": {
+      "description": "Joint inflammation",
+      "recommended_nutrients": ["omega_3", "antioxidants", "vitamin_d", "calcium"],
+      "avoid_nutrients": ["processed_foods", "refined_sugars", "excess_salt"],
+      "meal_timing": "regular",
+      "portions": "moderate",
+      "anti_inflammatory": "focus"
+    },
+    "osteoporosis": {
+      "description": "Bone health",
+      "recommended_nutrients": ["calcium", "vitamin_d", "vitamin_k", "protein"],
+      "avoid_nutrients": ["excess_sodium", "caffeine", "alcohol"],
+      "meal_timing": "regular",
+      "portions": "adequate",
+      "weight_bearing": "exercise_important"
+    },
+    "anemia": {
+      "description": "Iron deficiency",
+      "recommended_nutrients": ["iron", "vitamin_c", "folate", "vitamin_b12"],
+      "avoid_nutrients": ["calcium_with_iron", "tannins_with_iron"],
+      "meal_timing": "regular",
+      "portions": "adequate",
+      "iron_absorption": "enhance"
+    },
+    "thyroid_disorders": {
+      "description": "Thyroid function",
+      "recommended_nutrients": ["iodine", "selenium", "zinc", "vitamin_d"],
+      "avoid_nutrients": ["goitrogens", "excess_soy"],
+      "meal_timing": "regular",
+      "portions": "adequate",
+      "medication_timing": "important"
+    },
+    "migraine": {
+      "description": "Headache prevention",
+      "recommended_nutrients": ["magnesium", "riboflavin", "coenzyme_q10"],
+      "avoid_nutrients": ["tyramine", "nitrates", "msg", "alcohol"],
+      "meal_timing": "regular",
+      "portions": "consistent",
+      "hydration": "important"
+    },
+    "depression": {
+      "description": "Mental health support",
+      "recommended_nutrients": ["omega_3", "b_vitamins", "vitamin_d", "magnesium"],
+      "avoid_nutrients": ["refined_sugars", "excess_caffeine", "alcohol"],
+      "meal_timing": "regular",
+      "portions": "adequate",
+      "mood_stabilizing": "focus"
+    },
+    "autoimmune_diseases": {
+      "description": "Immune system regulation",
+      "recommended_nutrients": ["omega_3", "antioxidants", "vitamin_d", "probiotics"],
+      "avoid_nutrients": ["processed_foods", "refined_sugars", "gluten"],
+      "meal_timing": "regular",
+      "portions": "moderate",
+      "anti_inflammatory": "focus"
+    }
+  },
+  "allergies": {
+    "peanut": {
+      "description": "Peanut allergy",
+      "incompatible_ingredients": ["peanuts", "peanut_butter", "peanut_oil", "peanut_flour"],
+      "safe_alternatives": ["almonds", "cashews", "sunflower_seeds", "pumpkin_seeds"],
+      "cross_contamination": "high_risk"
+    },
+    "tree_nut": {
+      "description": "Tree nut allergy",
+      "incompatible_ingredients": ["almonds", "walnuts", "cashews", "pistachios", "pecans", "hazelnuts", "macadamia_nuts"],
+      "safe_alternatives": ["sunflower_seeds", "pumpkin_seeds", "sesame_seeds", "peanuts"],
+      "cross_contamination": "high_risk"
+    },
+    "shellfish": {
+      "description": "Shellfish allergy",
+      "incompatible_ingredients": ["shrimp", "crab", "lobster", "mussels", "oysters", "clams", "scallops"],
+      "safe_alternatives": ["fish", "chicken", "tofu", "legumes"],
+      "cross_contamination": "medium_risk"
+    },
+    "egg": {
+      "description": "Egg allergy",
+      "incompatible_ingredients": ["eggs", "egg_whites", "egg_yolks", "mayonnaise", "marshmallows"],
+      "safe_alternatives": ["flax_seeds", "chia_seeds", "banana", "applesauce", "aquafaba"],
+      "cross_contamination": "medium_risk"
+    },
+    "soy": {
+      "description": "Soy allergy",
+      "incompatible_ingredients": ["soybeans", "soy_sauce", "tofu", "tempeh", "edamame", "miso"],
+      "safe_alternatives": ["chickpeas", "lentils", "quinoa", "rice", "almond_milk"],
+      "cross_contamination": "medium_risk"
+    },
+    "wheat": {
+      "description": "Wheat allergy",
+      "incompatible_ingredients": ["wheat", "wheat_flour", "bread", "pasta", "couscous", "bulgur"],
+      "safe_alternatives": ["rice", "quinoa", "corn", "buckwheat", "millet"],
+      "cross_contamination": "medium_risk"
+    },
+    "dairy": {
+      "description": "Dairy allergy",
+      "incompatible_ingredients": ["milk", "cheese", "yogurt", "butter", "cream", "whey", "casein"],
+      "safe_alternatives": ["almond_milk", "soy_milk", "oat_milk", "coconut_milk", "nutritional_yeast"],
+      "cross_contamination": "medium_risk"
+    },
+    "fish": {
+      "description": "Fish allergy",
+      "incompatible_ingredients": ["salmon", "tuna", "cod", "mackerel", "sardines", "anchovies"],
+      "safe_alternatives": ["chicken", "turkey", "tofu", "legumes", "eggs"],
+      "cross_contamination": "medium_risk"
+    },
+    "sesame": {
+      "description": "Sesame allergy",
+      "incompatible_ingredients": ["sesame_seeds", "sesame_oil", "tahini", "hummus"],
+      "safe_alternatives": ["sunflower_seeds", "pumpkin_seeds", "almonds", "cashews"],
+      "cross_contamination": "medium_risk"
+    },
+    "sulfites": {
+      "description": "Sulfite sensitivity",
+      "incompatible_ingredients": ["dried_fruits", "wine", "processed_meats", "pickled_foods"],
+      "safe_alternatives": ["fresh_fruits", "fresh_vegetables", "lean_meats", "whole_grains"],
+      "cross_contamination": "low_risk"
+    },
+    "mold": {
+      "description": "Mold allergy",
+      "incompatible_ingredients": ["aged_cheeses", "fermented_foods", "dried_fruits", "mushrooms"],
+      "safe_alternatives": ["fresh_cheeses", "fresh_vegetables", "fresh_fruits", "lean_proteins"],
+      "cross_contamination": "low_risk"
+    },
+    "latex": {
+      "description": "Latex allergy",
+      "incompatible_ingredients": ["avocado", "banana", "kiwi", "chestnuts", "papaya"],
+      "safe_alternatives": ["apples", "oranges", "berries", "carrots", "celery"],
+      "cross_contamination": "low_risk"
+    },
+    "nightshade": {
+      "description": "Nightshade sensitivity",
+      "incompatible_ingredients": ["tomatoes", "potatoes", "eggplant", "bell_peppers", "chili_peppers"],
+      "safe_alternatives": ["sweet_potatoes", "cauliflower", "cucumber", "zucchini", "carrots"],
+      "cross_contamination": "low_risk"
+    }
+  },
+  "ingredient_substitutions": {
+    "dairy_milk": {
+      "substitutes": [
+        {"name": "almond_milk", "ratio": "1:1", "notes": "Lower protein, nutty flavor"},
+        {"name": "soy_milk", "ratio": "1:1", "notes": "Similar protein content"},
+        {"name": "oat_milk", "ratio": "1:1", "notes": "Higher carbs, creamy texture"},
+        {"name": "coconut_milk", "ratio": "1:1", "notes": "Higher fat, tropical flavor"}
+      ]
+    },
+    "eggs": {
+      "substitutes": [
+        {"name": "flax_seeds", "ratio": "1_tbsp_ground:1_egg", "notes": "Lower protein, good for binding"},
+        {"name": "chia_seeds", "ratio": "1_tbsp_ground:1_egg", "notes": "Lower protein, high fiber"},
+        {"name": "banana", "ratio": "1/4_cup_mashed:1_egg", "notes": "Higher sugar, good for baking"},
+        {"name": "applesauce", "ratio": "1/4_cup:1_egg", "notes": "Higher sugar, moist texture"}
+      ]
+    },
+    "wheat_flour": {
+      "substitutes": [
+        {"name": "almond_flour", "ratio": "1:1", "notes": "Higher fat and protein"},
+        {"name": "coconut_flour", "ratio": "1/4:1", "notes": "Higher fiber, very absorbent"},
+        {"name": "rice_flour", "ratio": "1:1", "notes": "Lower protein, neutral taste"},
+        {"name": "quinoa_flour", "ratio": "1:1", "notes": "Higher protein, nutty flavor"}
+      ]
+    },
+    "sugar": {
+      "substitutes": [
+        {"name": "honey", "ratio": "3/4:1", "notes": "Higher calories, natural sweetness"},
+        {"name": "maple_syrup", "ratio": "3/4:1", "notes": "Higher calories, rich flavor"},
+        {"name": "stevia", "ratio": "1/4:1", "notes": "Zero calories, very sweet"},
+        {"name": "monk_fruit", "ratio": "1:1", "notes": "Zero calories, natural taste"}
+      ]
+    },
+    "butter": {
+      "substitutes": [
+        {"name": "olive_oil", "ratio": "3/4:1", "notes": "Healthier fats, Mediterranean flavor"},
+        {"name": "coconut_oil", "ratio": "1:1", "notes": "Higher saturated fat, tropical flavor"},
+        {"name": "avocado", "ratio": "1:1", "notes": "Higher fiber, creamy texture"},
+        {"name": "greek_yogurt", "ratio": "1:1", "notes": "Higher protein, tangy flavor"}
+      ]
+    },
+    "meat": {
+      "substitutes": [
+        {"name": "tofu", "ratio": "1:1", "notes": "Lower protein, versatile texture"},
+        {"name": "tempeh", "ratio": "1:1", "notes": "Higher protein, nutty flavor"},
+        {"name": "seitan", "ratio": "1:1", "notes": "High protein, meat-like texture"},
+        {"name": "legumes", "ratio": "1:1", "notes": "Lower protein, high fiber"}
+      ]
+    },
+    "salt": {
+      "substitutes": [
+        {"name": "herbs", "ratio": "1:1", "notes": "No sodium, flavorful"},
+        {"name": "spices", "ratio": "1:1", "notes": "No sodium, aromatic"},
+        {"name": "lemon_juice", "ratio": "1:1", "notes": "No sodium, acidic brightness"},
+        {"name": "vinegar", "ratio": "1:1", "notes": "No sodium, tangy flavor"}
+      ]
+    }
+  },
+  "nutritional_goals": {
+    "weight_loss": {
+      "calorie_deficit": 500,
+      "protein_ratio": 0.3,
+      "carb_ratio": 0.4,
+      "fat_ratio": 0.3,
+      "fiber_target": 25,
+      "meal_frequency": 5
+    },
+    "muscle_gain": {
+      "calorie_surplus": 300,
+      "protein_ratio": 0.4,
+      "carb_ratio": 0.4,
+      "fat_ratio": 0.2,
+      "protein_target": 1.6,
+      "meal_frequency": 6
+    },
+    "maintenance": {
+      "calorie_balance": 0,
+      "protein_ratio": 0.25,
+      "carb_ratio": 0.45,
+      "fat_ratio": 0.3,
+      "fiber_target": 25,
+      "meal_frequency": 3
+    },
+    "athletic_performance": {
+      "calorie_surplus": 200,
+      "protein_ratio": 0.3,
+      "carb_ratio": 0.5,
+      "fat_ratio": 0.2,
+      "protein_target": 1.4,
+      "meal_frequency": 4
+    },
+    "heart_health": {
+      "calorie_balance": 0,
+      "protein_ratio": 0.25,
+      "carb_ratio": 0.5,
+      "fat_ratio": 0.25,
+      "fiber_target": 30,
+      "omega_3_target": 1.6
+    },
+    "diabetes_management": {
+      "calorie_balance": 0,
+      "protein_ratio": 0.3,
+      "carb_ratio": 0.4,
+      "fat_ratio": 0.3,
+      "fiber_target": 25,
+      "glycemic_index": "low"
+    },
+    "anti_inflammatory": {
+      "calorie_balance": 0,
+      "protein_ratio": 0.25,
+      "carb_ratio": 0.45,
+      "fat_ratio": 0.3,
+      "omega_3_target": 2.0,
+      "antioxidant_rich": "focus"
+    }
+  }
+} 
